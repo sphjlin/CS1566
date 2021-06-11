@@ -120,7 +120,7 @@ int num_vertices = 222;
 
 void init(void)// same one as lab01
 {
-    GLuint program = initShader("/Users/sph/Desktop/正在使用中.../CS1566/lab03/lab03/vshader.glsl", "/Users/sph/Desktop/正在使用中.../CS1566/lab03/lab03/fshader.glsl");
+    GLuint program = initShader("./vshader.glsl", "./fshader.glsl");
     glUseProgram(program);
     
     GLuint vao;
