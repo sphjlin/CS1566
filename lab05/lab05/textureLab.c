@@ -73,7 +73,7 @@ void init(void){
     fread(my_texels, width * height * 3, 1, fp);
     fclose(fp);
     
-    GLuint program = initShader("/Users/sph/Desktop/正在使用中.../CS1566/lab05/lab05/vshader.glsl", "/Users/sph/Desktop/正在使用中.../CS1566/lab05/lab05/fshader.glsl");
+    GLuint program = initShader("./vshader.glsl", "./fshader.glsl");
     glUseProgram(program);
     
     GLuint mytex[1];
