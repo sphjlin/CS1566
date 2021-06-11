@@ -65,7 +65,7 @@ void init(void){
     int height = 512;
     GLubyte my_texels[width][height][3];
     
-    FILE *fp = fopen("/Users/sph/Desktop/正在使用中.../CS1566/lab05/lab05/StoneWall.raw", "r");
+    FILE *fp = fopen("./StoneWall.raw", "r");
     if(fp == 0) {
         perror("fopen");
         exit(1);
