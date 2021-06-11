@@ -63,7 +63,7 @@ int num_vertices = 6;
 
 void init(void)
 {
-    GLuint program = initShader("/Users/sph/Desktop/正在使用中.../CS1566/lab04/lab04/vshader.glsl", "/Users/sph/Desktop/正在使用中.../CS1566/lab04/lab04/fshader.glsl");
+    GLuint program = initShader("./vshader.glsl", "./fshader.glsl");
     glUseProgram(program);
     
     GLuint vao;
